@@ -2,7 +2,12 @@
  const app = express();
  const port = 8000;
 
- app.use('/',require('./routes/index.js'));
+ app.use('/',require('./routes/index.js')); //use express router
+
+ //setting up view engine
+
+ app.set('view engine','ejs');
+ app.set('views','./views'); //neighouring folder
 
  
 
