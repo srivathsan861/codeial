@@ -1,0 +1,32 @@
+
+#sign-in-up-out{
+	display: flex;
+	justify-content: space-between;
+	background-color: deepskyblue;
+	height: auto;
+	h1{
+		color: white;
+		&:hover{
+          color: lightgrey;
+          cursor: pointer;
+		}
+		font-family: sans-serif;
+		margin: 1rem;
+	}
+	ul{
+	   li{
+		display: inline;
+		list-style: none;
+		font-family: monospace;
+		margin: 1rem;
+		font-size: large;
+		:hover{
+          color: lightgrey;
+              }
+              a{
+		         text-decoration: none;
+		         color: white;
+	            }
+	      }
+       }
+}

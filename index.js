@@ -1,32 +1,79 @@
- const express = require('express');
- const cookieParser = require('cookie-parser');
- const expressLayouts = require('express-ejs-layouts');
- const app = express();
- const port = 8000;
- const db = require('./config/mongoose.js');
+const express = require('express');
+const cookieParser = require('cookie-parser');
+const app = express();
+const port = 8000;
+const expressLayouts = require('express-ejs-layouts');
+const db = require('./config/mongoose');
+// used for session cookie
+const session = require('express-session');
+const passport = require('passport');
+const passportLocal = require('./config/passport-local-strategy');
+const mongoStore = require('connect-mongo');
+const sassMiddleware = require('node-sass-middleware');
 
- app.use(express.urlencoded()); //reading through the post request
+app.use(sassMiddleware({
+    src: './assets/scss',
+    dest: './assets/css',
+    debug: true,
+    outputStyle: 'extended',
+    prefix: '/css'
+}));
 
- app.use(cookieParser());
+app.use(express.urlencoded());
 
-  app.use(express.static('./assets'));
-  app.use(expressLayouts); //should put before route
-  app.set('layout extractStyles',true);
-  app.set('layout extractScripts',true);
+app.use(cookieParser());
+
+app.use(express.static('./assets'));
+
+app.use(expressLayouts);
+// extract style and scripts from sub pages into the layout
+app.set('layout extractStyles', true);
+app.set('layout extractScripts', true);
 
 
- app.use('/',require('./routes/index.js')); //use express router
 
 
- //setting up view engine
+// set up the view engine
+app.set('view engine', 'ejs');
+app.set('views', './views');
 
- app.set('view engine','ejs');
- app.set('views','./views'); //neighouring folder
+//mongo store is used to store the session cookie in the db
+app.use(session({
+    name: 'codeial',
+    // TODO change the secret before deployment in production mode
+    secret: 'blahsomething',
+    saveUninitialized: false,
+    resave: false,
+    cookie: {
+        maxAge: (1000 * 60 * 100)
+    },
+    // store: new mongoStore({
+    //     mongooseConnection: db,
+    //     autoRemove: 'disabled'
+    // },function(err){
+    //     console.log(err || "connect-mongodb setup ok");
+    // })
+    store: mongoStore.create({
+            mongoUrl: 'mongodb://localhost/codeial_development',
+            autoRemove: 'disabled'
+        },function(err){
+            console.log(err || "connect-mongodb setup ok");
+        })
+}));
 
- app.listen(port,function(err){
- 	if(err){
- 		// console.log('error',err);
- 		console.log(`error in running the server : ${err}`); //interpolation :  the process of embedding an expression into part of a string
- 	}
- 	console.log(`server is running on port : ${port}`);
- });
+app.use(passport.initialize());
+app.use(passport.session());
+
+app.use(passport.setAuthenticatedUser);
+
+// use express router
+app.use('/', require('./routes'));
+
+
+app.listen(port, function(err){
+    if (err){
+        console.log(`Error in running the server: ${err}`);
+    }
+
+    console.log(`Server is running on port: ${port}`);
+});
