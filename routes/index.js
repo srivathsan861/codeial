@@ -8,6 +8,8 @@ router.get('/',homeController.home);
 
 router.use('/users',require('./users.js')); //accessing users profile from index (that is root route) file
 
+router.use('/posts',require('./posts')); 
+
 // for any further routes, access from here
 // router.use('/routerName', require('./routerfile));
 
