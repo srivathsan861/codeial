@@ -1,0 +1,8 @@
+[0mGET /users/sign-in [32m200[0m 37.989 ms - 2104[0m
+[0mGET /users/sign-up [36m304[0m 19.377 ms - -[0m
+[0mGET /users/sign-up [36m304[0m 12.789 ms - -[0m
+[0mGET /users/sign-up [36m304[0m 8.555 ms - -[0m
+[0mGET /users/sign-up [36m304[0m 8.836 ms - -[0m
+[0mGET /users/sign-up [36m304[0m 7.850 ms - -[0m
+[0mGET /users/sign-up [36m304[0m 8.091 ms - -[0m
+[0mGET / [36m304[0m 65.546 ms - -[0m

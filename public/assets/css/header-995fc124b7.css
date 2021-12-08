@@ -1,0 +1,23 @@
+#sign-in-up-out {
+  display: flex;
+  justify-content: space-between;
+  background-color: deepskyblue;
+  height: auto; }
+  #sign-in-up-out h1 {
+    color: white;
+    font-family: sans-serif;
+    margin: 1rem; }
+    #sign-in-up-out h1:hover {
+      color: lightgrey;
+      cursor: pointer; }
+  #sign-in-up-out ul li {
+    display: inline;
+    list-style: none;
+    font-family: monospace;
+    margin: 1rem;
+    font-size: large; }
+    #sign-in-up-out ul li :hover {
+      color: lightgrey; }
+    #sign-in-up-out ul li a {
+      text-decoration: none;
+      color: white; }
