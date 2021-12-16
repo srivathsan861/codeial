@@ -1,0 +1,28 @@
+.comment-style {
+  margin: 0 0 1rem 0; }
+  .comment-style #comment-content {
+    font-family: monospace;
+    font-size: 1rem; }
+  .comment-style .delete-comment-button {
+    text-decoration: none;
+    color: red;
+    font-size: 1rem;
+    border-radius: 50%;
+    margin: 0 1rem 0 1rem; }
+    .comment-style .delete-comment-button:hover {
+      background-color: red;
+      color: black; }
+  .comment-style #commenter {
+    font-family: monospace;
+    color: pink; }
+  .comment-style .like a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    font-size: 0.7rem;
+    padding-left: 4px;
+    width: 2rem; }
+    .comment-style .like a .heart {
+      margin: 0.4rem;
+      font-size: 0.7rem;
+      color: red; }

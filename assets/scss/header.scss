@@ -2,26 +2,26 @@
 #sign-in-up-out{
 	display: flex;
 	justify-content: space-between;
-	background-color: deepskyblue;
-	height: auto;
+	background: linear-gradient(to right,deeppink,#111519) ;
+	height: 3rem;
 	h1{
-		color: white;
+		color: pink;
 		&:hover{
-          color: lightgrey;
+          color: #111519;
           cursor: pointer;
 		}
-		font-family: sans-serif;
-		margin: 1rem;
+		font-family: 'Fasthand', cursive;
+		margin: 0 0 0 1rem;
 	}
 	ul{
 	   li{
 		display: inline;
 		list-style: none;
-		font-family: monospace;
-		margin: 1rem;
+		font-family: 'Comfortaa', cursive;
+		margin: 2rem;
 		font-size: large;
 		:hover{
-          color: lightgrey;
+          color: hotpink;
               }
               a{
 		         text-decoration: none;

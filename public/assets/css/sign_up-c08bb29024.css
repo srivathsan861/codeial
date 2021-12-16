@@ -1,0 +1,52 @@
+#sign-up {
+  color: deeppink;
+  text-align: center;
+  background-color: black;
+  width: 50vw;
+  height: 70vh;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  margin: auto; }
+  #sign-up h1 {
+    font-family: 'Comfortaa', cursive;
+    padding: 1rem 1rem 0 1rem; }
+  #sign-up form label {
+    font-family: 'Comfortaa', cursive;
+    float: center; }
+  #sign-up form #name {
+    margin: 0; }
+  #sign-up form #email {
+    display: block; }
+  #sign-up form #pass {
+    padding-right: 2.4rem;
+    display: block; }
+  #sign-up form #confirm-pass {
+    padding-right: 7.5rem;
+    display: block; }
+  #sign-up form input {
+    border-radius: 5px;
+    background-color: white;
+    border: none;
+    margin: 1rem; }
+    #sign-up form input:input:focus {
+      outline: none; }
+  #sign-up form button {
+    width: 20vw;
+    height: 2.5rem;
+    border-radius: 10px;
+    background-color: hotpink;
+    border: none;
+    font-family: 'Comfortaa', cursive; }
+    #sign-up form button:hover {
+      background-color: deeppink; }
+  #sign-up p a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Comfortaa', cursive; }
+  #sign-up p #g-sign {
+    border-right: 3px solid hotpink;
+    padding: 5px; }
+  #sign-up p :hover {
+    color: hotpink; }

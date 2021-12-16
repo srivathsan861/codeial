@@ -1,26 +1,26 @@
 #footer{
-	background-color:gray;
-	height: auto;
-	h6{
+	background-color:deeppink;
+	height: 3rem;
+	#wm{
       color: white;
       display: inline-block;
-      font-family: cursive ;
-      font-size: medium
+	  font-family: 'Comfortaa', cursive;
 	}
-	ul {
-        display: inline-block;
-         	li{
-      list-style: none;
-      font-family: sans-serif;
-      font-size: large;
-      	a{
-		text-decoration: none;
-		color: white;
-		&:hover{
-			color: deepskyblue;
-	     }
-	         }
+	#footer-links{
+		display: inline-block;
+		margin: 0 1rem 0 1rem;
+		#home-link{
+			border-left:3px solid white;
+			border-right:3px solid white;
+			padding:0 1rem 0 1rem;
 		}
-	  }
-
+		a{
+			color: white;
+			text-decoration: none;
+		    font-family: 'Comfortaa', cursive;
+		}
+		:hover{
+		    color: #111519;
+		}
+	}
 }

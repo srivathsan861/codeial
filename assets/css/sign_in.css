@@ -1,0 +1,47 @@
+#sign-in {
+  color: deeppink;
+  text-align: center;
+  background-color: black;
+  width: 40vw;
+  height: 50vh;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  margin: auto; }
+  #sign-in h1 {
+    font-family: 'Comfortaa', cursive;
+    padding: 1rem 1rem 0 1rem; }
+  #sign-in form #email {
+    margin: 2rem 2rem 1rem 2rem;
+    padding-left: 2.3rem;
+    display: block;
+    font-family: 'Comfortaa', cursive; }
+  #sign-in form #pass {
+    margin: 1rem 2rem 1rem 2rem;
+    display: block;
+    font-family: 'Comfortaa', cursive; }
+  #sign-in form input {
+    border-radius: 5px;
+    background-color: white;
+    border: none; }
+  #sign-in form input:focus {
+    outline: none; }
+  #sign-in form button {
+    width: 20vw;
+    height: 2.5rem;
+    border-radius: 10px;
+    background-color: hotpink;
+    border: none;
+    font-family: 'Comfortaa', cursive; }
+    #sign-in form button:hover {
+      background-color: deeppink; }
+  #sign-in p a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Comfortaa', cursive; }
+  #sign-in p #g-sign {
+    border-right: 3px solid hotpink;
+    padding: 5px; }
+  #sign-in p :hover {
+    color: hotpink; }

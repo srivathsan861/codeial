@@ -1,3 +1,105 @@
 body{
 	background-color: deepskyblue;
 }
+
+#user-profile{
+ 
+#profile-pic{
+	text-align: center;
+	margin: 2rem;
+
+     img{
+     height: 10rem;
+	width: 10rem;
+	border-radius: 50%;
+	border:3px dashed hotpink;
+	&:hover{
+		box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px,
+		 rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+     }
+ }
+}
+
+form{
+
+  text-align: center;
+  width: 40vw;
+  margin: auto;
+  background-color: hotpink;
+  border-top-left-radius:30px;
+  border-top-right-radius:30px;
+  border-radius: 30px;
+  height: 50vh;
+
+  label{
+		font-family: 'Comfortaa', cursive;
+
+  }
+
+  input{
+  	background-color: pink;
+  	border-radius:10px;
+  	border:none;
+  	margin: 1rem;
+  	&:focus{
+  		outline: none;
+  	}
+  }
+
+   #upload-pic{
+    border: 1px solid #ccc;
+    padding: 6px 12px;
+    cursor: pointer;
+   }
+
+   #update{
+   	background-color: black;
+   	color: hotpink;
+   	&:hover{
+   		background-color:deeppink;
+   		color: black;
+   	}
+   }
+
+  
+}
+#x-user-info{
+	text-align: center;
+	margin: auto;
+	background-color: hotpink;
+	width: 20vw;
+    margin: auto;
+    border-radius: 10px;
+	#name-email{
+       margin: 2rem;
+	}
+	label{
+		color: black;
+    font-family: 'Comfortaa', cursive;
+
+	}
+    small{
+    	color: white;
+    	background-color:#111519;
+      height: 2rem;
+      width: 7rem;
+      border-radius:10px;
+    font-family: 'Comfortaa', cursive;
+      
+    }
+    .toggle-friend-button{
+    	button{
+    	background-color:#111519;
+    	border: none;
+    	border-top-left-radius:5px;
+    	border-top-right-radius:5px;
+    	color: white;
+        cursor: pointer;
+        &:hover{
+        	color: red;
+        }
+        }
+    }
+}
+
+}

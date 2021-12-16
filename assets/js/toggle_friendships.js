@@ -97,9 +97,9 @@ class ToggleFriendship{
                 console.log(data,'******');
                 
                 if (data.data.friendAdded == true){
-                    $(' button', self).html(`Remove Friend`);
+                    $(' button', self).html(`REMOVE FRIEND`);
                 }else{
-                    $(' button', self).html(`Add Friend`);
+                    $(' button', self).html(`ADD FRIEND`);
                 }
 
             })

@@ -1,0 +1,63 @@
+.new-post {
+  list-style: none;
+  background-color: hotpink;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  height: auto;
+  margin: 1rem 0 1rem 0; }
+  .new-post #post-content {
+    color: black;
+    font-size: 1rem;
+    font-family: 'PT Serif', serif;
+    margin: 0 1rem 0 1rem;
+    padding: 0.5rem 1rem 0.5rem 1rem; }
+  .new-post #post-user {
+    font-family: 'Comfortaa', cursive;
+    margin: 0 1rem 0 1rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    display: block;
+    color: white;
+    background-color: #111519;
+    width: 7rem;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px; }
+  .new-post #like-del {
+    float: right; }
+  .new-post .toggle-like-button {
+    text-decoration: none;
+    color: white;
+    background-color: #111519;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin: 0.4rem;
+    font-size: 1.3rem;
+    color: red; }
+  .new-post .delete-post-button {
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+    background-color: gray;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin: 0 1rem 0 1rem; }
+    .new-post .delete-post-button:hover {
+      color: red; }
+
+.post-comments {
+  background-color: gray; }
+  .post-comments form #create-comment {
+    margin: 1rem 1rem 1rem 1rem;
+    border-radius: 10px;
+    border: none;
+    height: 1.5rem;
+    width: 15rem; }
+    .post-comments form #create-comment:focus {
+      outline: none; }
+  .post-comments form #cmnt-btn {
+    border-radius: 10px;
+    background-color: hotpink;
+    border: none; }
+    .post-comments form #cmnt-btn:hover {
+      background-color: deeppink; }
+  .post-comments .content-style {
+    color: black; }

@@ -8,13 +8,17 @@
      </div>
 </footer> -->
 
-<footer>
+<link rel="stylesheet" type="text/css" href="<%= assetPath('css/footer.css') %>">
+
+
+<footer id="footer">
     <div>
-        <div>
+        <div id="wm">
             <p>© Srivathsan. All Rights Reserved</p>
         </div>
-        <div>
-            <a href="/">Home</a>
+        <div id="footer-links">
+            <a id="home-link" href="/">Home</a>
+
             <%if(locals.user) { %>
                 <a href="/users/profile/<%= user.id %>">Profile</a>
             <% } else { %>

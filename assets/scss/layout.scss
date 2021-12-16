@@ -1,8 +1,18 @@
+
+
 body{
 	margin: 0;
 
 	#layout-main{
 		height: 100vh;
+	background-color: #111519;
+		// overflow-y: hidden;
+		// overflow-x: auto;
+		overflow: scroll;
+		&::-webkit-scrollbar{
+        display: none;
+}
+		
 	}
 	 
 }

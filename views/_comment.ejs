@@ -1,29 +1,32 @@
+ 
+ <link rel="stylesheet" type="text/css" href="<%= assetPath('css/comment.css') %>">
           
-  <li id="comment-<%=comment._id%>">
+  <li id="comment-<%=comment._id%>" class="comment-style">
 
-     <p>
 
+
+        <small id="comment-content">
+        <%= comment.content %>
+        </small>
         <% if(locals.user && locals.user.id == comment.user.id){ %>
               <small>
                 <a class ="delete-comment-button" href="/comments/destroy/<%=comment._id%> ">X</a>
               </small>
         <% } %>
-        <%= comment.content %>
         <br>
-        <small>
+        <small id="commenter">
           <%= comment.user.name %>
         </small>
-       </p>
 
-  <small>
+  <small class="like">
   <% if(locals.user){ %>
    <a class="toggle-like-button" data-likes="<%= comment.like.length %>" href="/likes/toggle/?id=<%=comment._id%>&type=Comment">
-      <%= comment.like.length %> Likes
+      <%= comment.like.length %> <span class="heart"> ♥️ </span>
    </a>
   <% }else{ %>
-      <%= comment.like.length %> Likes 
+      <%= comment.like.length %> ♥️ 
   <% } %>
   </small>
 
-       <li>
+       </li>
                               

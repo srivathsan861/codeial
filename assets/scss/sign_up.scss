@@ -1,0 +1,76 @@
+#sign-up{
+	color: deeppink;
+	text-align: center;
+	background-color:black;
+	width: 50vw;
+	height: 70vh;
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+	margin: auto;
+	h1{
+		font-family: 'Comfortaa', cursive;
+		padding: 1rem 1rem 0 1rem;
+	}
+	form{
+		label{
+			font-family: 'Comfortaa', cursive;
+			float: center;
+
+		}   
+		#name{
+			margin: 0;
+		}
+			#email{
+			// margin: 0 2rem 1rem 2rem;
+			// padding-left: 1rem;
+			display: block;
+		}
+		#pass{
+			// margin: 1rem 2rem 1rem 2rem;
+			 padding-right: 2.4rem;
+
+			display: block;
+		}
+		#confirm-pass{
+           padding-right: 7.5rem;
+			display: block;
+		}
+		input{
+			border-radius: 5px;
+			background-color: white;
+			border: none;
+			margin: 1rem;
+			&:input:focus{
+			outline: none;
+		}
+		}
+		
+		button{
+          width: 20vw;
+          height: 2.5rem;
+          border-radius: 10px;
+          background-color: hotpink;
+          border: none;
+		  font-family: 'Comfortaa', cursive;
+          &:hover{
+          	background-color:deeppink;
+          }
+		}
+	}
+	p{
+		a{
+			text-decoration: none;
+			color: white;
+			font-family: 'Comfortaa', cursive;
+		}
+		#g-sign{
+			border-right: 3px solid hotpink;
+			padding: 5px;
+		}
+		:hover{
+			color: hotpink;
+		}
+	}
+}

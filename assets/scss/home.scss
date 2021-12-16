@@ -1,13 +1,92 @@
 #home-container{
 	display: flex;
+
+	#create-post{
+       border:none;
+       background-color:pink;
+       border-radius: 10px;
+       &:focus{
+		outline: none;
+	}
+	&::placeholder{
+		color: black;
+	}
+	}
+	
+	#post-btn{
+		border-radius:10px;
+		background-color: hotpink;
+		color: black;
+		border:none;
+		&:focus{
+			outline: none;
+		}
+		&:hover{
+		    background-color: deeppink;
+		}
+	}
+
+	#posts-list-container{
+		margin-left: -2rem;
+	}
+
 	#feed-posts{
 		width: 70%;
 		padding: 10px;
+		background-color: #111519;
+		height: 96.7vh;
+		h4{
+		color: white;
+		font-family: 'Comfortaa', cursive;
+		height: 1rem;
+		 background-image: linear-gradient(to right,hotpink,transparent);
+		padding: 1rem 1rem 1rem 1rem;
+         border-top-left-radius: 10px;
+         border-bottom-left-radius: 10px;
+		}
 	}
-	#user-friends{
+
+
+	#users-container{
 		width: 30%;
 		padding:10px;
-		border: 1px solid lightgray;
+		border-left: 1px solid #111519;
 		height: 96.7vh;
+		background-color: pink;
+		position:fixed;
+		left: 71vw;
+
+		.friends-of-user{
+			button{
+				border-radius: 50%;
+				border: none;
+				color: black;
+				background-color: hotpink;
+				&:hover{
+					background-color:deeppink;
+				}
+			}
+		}
+
+		.user-name{
+                		color:#111519;
+                		text-decoration: none;
+		                font-family: 'Comfortaa', cursive;
+		                &:hover{
+		                	color: deeppink ;
+		                }
+                	}
+
+        .user-head{
+        	h4{
+				color: white;
+		        font-family: 'Comfortaa', cursive;
+		        background-image: linear-gradient(to right,#111519,transparent);
+		        height: 1rem;
+		        padding: 1rem 1rem 1rem 1rem;
+		        border-top-left-radius: 10px;
+                border-bottom-left-radius: 10px;
+			}
+        }
 	}
 }

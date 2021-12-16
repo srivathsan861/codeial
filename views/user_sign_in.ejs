@@ -1,16 +1,27 @@
 
-<div>
-<h1> sign in page </h1>
+<link rel="stylesheet" href="<%= assetPath('css/sign_in.css') %>">
+
+
+<div id="sign-in">
+<h1> SIGN-IN </h1>
 
 <form action="/users/create-session" method="post">
+	<div id="email">
+    <label for="email"> EMAIL </label>
 	<input type="email" name="email" placeholder="Enter Email" required>
-	<input type="password" name="password" placeholder="Enter Password" autocomplete="off" required>
-	<input type="submit" value="Sign In">
+    </div>
+
+    <div id="pass">
+    <label for="password"> PASSWORD </label>
+	<input  type="password" name="password" placeholder="Enter Password" autocomplete="off" required>
+	</div>
+	<button type="submit">Sign In</button>
 
 </form>
 
 <p>
-	<a href="/users/auth/google">Google Sign In/Sign Up</a> | <a href="/users/reset-password">Forgot pasword</a>
+	<a id="g-sign" href="/users/auth/google">Google Sign In/Sign Up</a> 
+    <a id="f-pass"href="/users/reset-password">Forgot password</a>
 </p>
 </div>
 

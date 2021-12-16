@@ -41,28 +41,30 @@
 
    let newCommentDom = function(comment){
     // console.log(comment);
-   	return $(`<li id="comment-${comment._id}">
+   	return $(`<li id="comment-${ comment._id }" class="comment-style">
 
-                              <p>
 
-                                 <small>
-                                 <a class="delete-comment-button" href="/comments/destroy/${comment._id}">X</a>
-                                 </small>
 
-                                ${ comment.content }
-                                <br>
-                                <small>
-                                ${ comment.user.name }
-                                </small>
-                                <br>
-                                <small>
-                                 <a class = "toggle-like-button" data-likes="0" href="/likes/toggle/?id=${comment._id}&type=Comment">
-                                 0 Likes 
-                                 </a>
-                                </small>
+        <small id="comment-content">
+        ${ comment.content }
+        </small>
+              <small>
+                <a class ="delete-comment-button" href="/comments/destroy/${comment._id}">X</a>
+              </small>
+        <br>
+        <small id="commenter">
+          ${ comment.user.name }
+        </small>
 
-                              </p>
-       <li>`);
+  <small class="like">
+ 
+   <a class="toggle-like-button" data-likes="<%= comment.like.length %>" href="/likes/toggle/?id=<%=comment._id%>&type=Comment">
+      ${ comment.like.length } <span class="heart"> ♥️ </span>
+   </a>
+
+  </small>
+
+       </li>`);
    }
 
   // method to delete any comment 

@@ -1,23 +1,23 @@
 #sign-in-up-out {
   display: flex;
   justify-content: space-between;
-  background-color: deepskyblue;
-  height: auto; }
+  background: linear-gradient(to right, deeppink, #111519);
+  height: 3rem; }
   #sign-in-up-out h1 {
-    color: white;
-    font-family: sans-serif;
-    margin: 1rem; }
+    color: pink;
+    font-family: 'Fasthand', cursive;
+    margin: 0 0 0 1rem; }
     #sign-in-up-out h1:hover {
-      color: lightgrey;
+      color: #111519;
       cursor: pointer; }
   #sign-in-up-out ul li {
     display: inline;
     list-style: none;
-    font-family: monospace;
-    margin: 1rem;
+    font-family: 'Comfortaa', cursive;
+    margin: 2rem;
     font-size: large; }
     #sign-in-up-out ul li :hover {
-      color: lightgrey; }
+      color: hotpink; }
     #sign-in-up-out ul li a {
       text-decoration: none;
       color: white; }
