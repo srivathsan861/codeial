@@ -1,0 +1,554 @@
+[0mGET / [32m200[0m 1746.569 ms - 5046[0m
+[0mGET /favicon.ico [33m404[0m 788.893 ms - 150[0m
+[0mGET /users/sign-in [32m200[0m 77.423 ms - 2678[0m
+[0mPOST /users/create-session [36m302[0m 219.780 ms - 46[0m
+[0mGET / [32m200[0m 402.601 ms - 7750[0m
+[0mGET / [32m200[0m 82.444 ms - 7501[0m
+[0mGET / [36m304[0m 58.150 ms - -[0m
+[0mGET / [36m304[0m 74.859 ms - -[0m
+[0mGET / [36m304[0m 99.808 ms - -[0m
+[0mGET / [36m304[0m 63.258 ms - -[0m
+[0mGET / [36m304[0m 55.176 ms - -[0m
+[0mGET / [36m304[0m 61.511 ms - -[0m
+[0mGET / [36m304[0m 89.363 ms - -[0m
+[0mGET / [36m304[0m 46.376 ms - -[0m
+[0mGET / [36m304[0m 67.589 ms - -[0m
+[0mGET / [36m304[0m 119.227 ms - -[0m
+[0mGET / [36m304[0m 126.938 ms - -[0m
+[0mGET / [36m304[0m 58.387 ms - -[0m
+[0mGET / [36m304[0m 93.535 ms - -[0m
+[0mGET / [36m304[0m 104.869 ms - -[0m
+[0mGET / [36m304[0m 61.844 ms - -[0m
+[0mGET / [36m304[0m 49.273 ms - -[0m
+::1 - - [18/Dec/2021:08:52:55 +0000] "GET / HTTP/1.1" 200 4163 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:08:52:58 +0000] "GET /users/sign-in HTTP/1.1" 200 2744 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:08:53:02 +0000] "POST /users/create-session HTTP/1.1" 302 72 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:08:53:02 +0000] "GET /users/sign-in HTTP/1.1" 200 2994 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:08:53:08 +0000] "POST /users/create-session HTTP/1.1" 302 46 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:08:53:08 +0000] "GET / HTTP/1.1" 200 5486 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:08:53:17 +0000] "GET /users/profile/61aa3653ffc9a92092e8f04a HTTP/1.1" 200 3404 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:08:53:36 +0000] "GET /users/sign-out HTTP/1.1" 302 46 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:08:53:36 +0000] "GET / HTTP/1.1" 200 4410 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:08:53:37 +0000] "GET /users/sign-up HTTP/1.1" 200 2985 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:08:53:46 +0000] "POST /users/create HTTP/1.1" 302 72 "http://localhost:8000/users/sign-up" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:08:53:46 +0000] "GET /users/sign-in HTTP/1.1" 200 3009 "http://localhost:8000/users/sign-up" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:08:53:50 +0000] "POST /users/create-session HTTP/1.1" 302 46 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:08:53:50 +0000] "GET / HTTP/1.1" 200 5631 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:08:54:06 +0000] "POST /posts/create HTTP/1.1" 200 301 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:08:54:08 +0000] "GET / HTTP/1.1" 200 6959 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:08:54:15 +0000] "GET /posts/destroy/61bda1aeac72ca2195c38d06 HTTP/1.1" 200 72 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:08:54:19 +0000] "GET /users/sign-out HTTP/1.1" 302 46 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:08:54:19 +0000] "GET / HTTP/1.1" 200 4547 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:08:54:22 +0000] "GET /users/sign-in HTTP/1.1" 200 2744 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:08:54:29 +0000] "POST /users/create-session HTTP/1.1" 302 46 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:08:54:29 +0000] "GET / HTTP/1.1" 200 5623 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:08:54:36 +0000] "POST /posts/create HTTP/1.1" 200 303 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:08:54:37 +0000] "GET / HTTP/1.1" 200 6954 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:08:54:42 +0000] "GET /users/sign-out HTTP/1.1" 302 46 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:08:54:42 +0000] "GET / HTTP/1.1" 200 5440 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:08:54:45 +0000] "GET /users/sign-in HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:08:54:50 +0000] "POST /users/create-session HTTP/1.1" 302 46 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:08:54:50 +0000] "GET / HTTP/1.1" 200 7069 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:08:54:54 +0000] "POST /posts/create HTTP/1.1" 200 302 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:08:54:57 +0000] "POST /posts/create HTTP/1.1" 200 302 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:08:54:59 +0000] "GET /posts/destroy/61bda1e1ac72ca2195c38d34 HTTP/1.1" 200 72 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:08:55:05 +0000] "GET /users/sign-out HTTP/1.1" 302 46 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:08:55:05 +0000] "GET / HTTP/1.1" 200 6331 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:08:55:08 +0000] "GET /users/profile/61bda19aac72ca2195c38cfe HTTP/1.1" 302 72 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:08:55:08 +0000] "GET /users/sign-in HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:08:55:10 +0000] "GET /users/sign-in HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:08:55:20 +0000] "POST /users/create-session HTTP/1.1" 302 46 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:08:55:20 +0000] "GET / HTTP/1.1" 200 8639 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:08:55:26 +0000] "POST /comments/create HTTP/1.1" 200 490 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:08:55:26 +0000] "POST /comments/create HTTP/1.1" 200 543 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:08:55:35 +0000] "GET / HTTP/1.1" 200 10062 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:08:55:39 +0000] "GET /comments/destroy/61bda1feac72ca2195c38d4d HTTP/1.1" 200 79 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:08:55:42 +0000] "POST /comments/create HTTP/1.1" 200 540 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:08:55:42 +0000] "POST /comments/create HTTP/1.1" 200 567 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:08:55:44 +0000] "GET /comments/destroy/61bda20eac72ca2195c38d69 HTTP/1.1" 200 79 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:08:56:12 +0000] "POST /likes/toggle/?id=61bda1deac72ca2195c38d30&type=Post HTTP/1.1" 200 59 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:08:56:14 +0000] "GET / HTTP/1.1" 200 10059 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:08:57:07 +0000] "POST /comments/create HTTP/1.1" 302 46 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:08:57:07 +0000] "GET / HTTP/1.1" 200 11133 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:08:57:13 +0000] "GET /comments/destroy/61bda263ac72ca2195c38d8b HTTP/1.1" 200 79 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:08:57:18 +0000] "POST /comments/create HTTP/1.1" 302 46 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:08:57:18 +0000] "GET / HTTP/1.1" 200 11133 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:08:57:29 +0000] "POST /comments/create HTTP/1.1" 302 46 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:08:57:29 +0000] "GET / HTTP/1.1" 200 11968 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:08:57:34 +0000] "POST /comments/create HTTP/1.1" 200 593 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:08:57:34 +0000] "POST /comments/create HTTP/1.1" 200 620 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:08:57:42 +0000] "GET /comments/destroy/61bda27eac72ca2195c38dc4 HTTP/1.1" 200 79 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:08:57:44 +0000] "GET /comments/destroy/61bda1feac72ca2195c38d49 HTTP/1.1" 200 79 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:08:57:46 +0000] "GET /comments/destroy/61bda20eac72ca2195c38d6b HTTP/1.1" 200 79 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:08:57:47 +0000] "GET /comments/destroy/61bda27eac72ca2195c38dc6 HTTP/1.1" 200 79 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:08:57:49 +0000] "GET /comments/destroy/61bda26eac72ca2195c38da1 HTTP/1.1" 200 79 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:08:57:50 +0000] "GET /comments/destroy/61bda279ac72ca2195c38db2 HTTP/1.1" 200 79 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:08:57:51 +0000] "GET / HTTP/1.1" 200 8390 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:08:57:55 +0000] "POST /comments/create HTTP/1.1" 302 46 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:08:57:55 +0000] "GET / HTTP/1.1" 200 9464 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:08:58:01 +0000] "POST /comments/create HTTP/1.1" 200 542 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:08:58:01 +0000] "POST /comments/create HTTP/1.1" 200 569 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:08:58:05 +0000] "GET /comments/destroy/61bda299ac72ca2195c38e09 HTTP/1.1" 200 79 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:08:58:06 +0000] "GET /comments/destroy/61bda299ac72ca2195c38e0b HTTP/1.1" 200 79 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:08:58:08 +0000] "GET /comments/destroy/61bda293ac72ca2195c38df6 HTTP/1.1" 200 79 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:08:58:09 +0000] "GET / HTTP/1.1" 200 8390 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:08:58:36 +0000] "GET /posts/destroy/61bda1ccac72ca2195c38d1d HTTP/1.1" 200 72 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:08:58:38 +0000] "GET / HTTP/1.1" 200 6810 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:00:24 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:00:28 +0000] "POST /comments/create HTTP/1.1" 200 540 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:00:31 +0000] "GET / HTTP/1.1" 200 7643 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:00:37 +0000] "GET /comments/destroy/61bda32c94bd38ddb219381d HTTP/1.1" 200 79 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:00:53 +0000] "GET /users/sign-out HTTP/1.1" 302 46 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:00:53 +0000] "GET / HTTP/1.1" 200 5438 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:00:57 +0000] "GET /users/sign-in HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:01:02 +0000] "POST /users/create-session HTTP/1.1" 302 46 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:01:02 +0000] "GET / HTTP/1.1" 200 7209 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:01:16 +0000] "GET /posts/destroy/61bda1deac72ca2195c38d30 HTTP/1.1" 200 72 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:01:18 +0000] "GET / HTTP/1.1" 200 5382 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:01:20 +0000] "GET /users/sign-out HTTP/1.1" 302 46 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:01:20 +0000] "GET / HTTP/1.1" 200 4547 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:01:22 +0000] "GET /users/profile/61aa3653ffc9a92092e8f04a HTTP/1.1" 302 72 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:01:22 +0000] "GET /users/sign-in HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:01:26 +0000] "POST /users/create-session HTTP/1.1" 302 46 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:01:26 +0000] "GET / HTTP/1.1" 200 5631 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:03:38 +0000] "GET / HTTP/1.1" 200 5382 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:05:19 +0000] "POST /posts/create HTTP/1.1" 200 302 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:05:21 +0000] "GET / HTTP/1.1" 200 6960 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:05:23 +0000] "GET /users/sign-out HTTP/1.1" 302 46 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:05:23 +0000] "GET / HTTP/1.1" 200 5438 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:05:26 +0000] "GET /users/profile/61bda19aac72ca2195c38cfe HTTP/1.1" 302 72 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:05:26 +0000] "GET /users/sign-in HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:05:32 +0000] "POST /users/create-session HTTP/1.1" 302 46 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:05:32 +0000] "GET / HTTP/1.1" 200 7059 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:05:37 +0000] "POST /comments/create HTTP/1.1" 302 44 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:05:37 +0000] "GET / HTTP/1.1" 200 7886 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:05:39 +0000] "POST /comments/create HTTP/1.1" 302 44 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:05:39 +0000] "GET / HTTP/1.1" 200 8722 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:05:41 +0000] "POST /comments/create HTTP/1.1" 302 44 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:05:41 +0000] "GET / HTTP/1.1" 200 9558 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:05:42 +0000] "POST /comments/create HTTP/1.1" 302 44 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:05:42 +0000] "GET / HTTP/1.1" 200 10394 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:06:29 +0000] "GET / HTTP/1.1" 200 10154 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:06:32 +0000] "GET /comments/destroy/61bda461a28e5c3dc8f6a361 HTTP/1.1" 200 79 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:06:32 +0000] "GET /comments/destroy/61bda463a28e5c3dc8f6a371 HTTP/1.1" 200 79 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:06:33 +0000] "GET /comments/destroy/61bda465a28e5c3dc8f6a380 HTTP/1.1" 200 79 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:06:34 +0000] "GET /comments/destroy/61bda466a28e5c3dc8f6a38f HTTP/1.1" 200 79 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:07:15 +0000] "POST /posts/create HTTP/1.1" 200 293 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:07:22 +0000] "GET /users/sign-out HTTP/1.1" 302 46 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:07:22 +0000] "GET / HTTP/1.1" 200 6323 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:07:26 +0000] "GET /users/sign-in HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:07:32 +0000] "POST /users/create-session HTTP/1.1" 302 46 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:07:32 +0000] "GET / HTTP/1.1" 200 8639 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:07:47 +0000] "GET / HTTP/1.1" 200 8390 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:07:54 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:08:02 +0000] "POST /comments/create HTTP/1.1" 200 522 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:08:02 +0000] "POST /comments/create HTTP/1.1" 200 549 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:08:07 +0000] "GET / HTTP/1.1" 200 10070 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:08:11 +0000] "GET /comments/destroy/61bda4f27283b02792a5cc4b HTTP/1.1" 200 79 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:08:12 +0000] "GET /comments/destroy/61bda4f27283b02792a5cc54 HTTP/1.1" 200 79 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:08:14 +0000] "GET / HTTP/1.1" 200 8390 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:16:33 +0000] "POST /comments/create HTTP/1.1" 200 522 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:16:33 +0000] "POST /comments/create HTTP/1.1" 200 549 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:16:41 +0000] "POST /comments/create HTTP/1.1" 200 576 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:16:41 +0000] "POST /comments/create HTTP/1.1" 200 603 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:16:45 +0000] "GET /comments/destroy/61bda6f9d41ae61da6d7fe3c HTTP/1.1" 200 79 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:16:47 +0000] "GET /comments/destroy/61bda6f1d41ae61da6d7fe29 HTTP/1.1" 200 79 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:16:49 +0000] "GET /comments/destroy/61bda6f9d41ae61da6d7fe3e HTTP/1.1" 200 79 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:16:49 +0000] "GET /comments/destroy/61bda6f1d41ae61da6d7fe32 HTTP/1.1" 200 79 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:16:54 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:17:00 +0000] "POST /comments/create HTTP/1.1" 200 522 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:17:00 +0000] "POST /comments/create HTTP/1.1" 200 549 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:17:04 +0000] "POST /comments/create HTTP/1.1" 200 576 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:17:04 +0000] "POST /comments/create HTTP/1.1" 200 604 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:17:07 +0000] "GET /comments/destroy/61bda710d41ae61da6d7fe79 HTTP/1.1" 200 79 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:17:07 +0000] "GET /comments/destroy/61bda70cd41ae61da6d7fe67 HTTP/1.1" 200 79 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:17:09 +0000] "GET /comments/destroy/61bda710d41ae61da6d7fe77 HTTP/1.1" 200 79 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:17:10 +0000] "GET /comments/destroy/61bda70cd41ae61da6d7fe65 HTTP/1.1" 200 79 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:17:11 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:17:12 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:18:21 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:18:22 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:18:29 +0000] "POST /comments/create HTTP/1.1" 302 46 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:18:29 +0000] "GET / HTTP/1.1" 200 9471 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:18:33 +0000] "POST /comments/create HTTP/1.1" 200 522 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:18:33 +0000] "POST /comments/create HTTP/1.1" 200 549 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:18:36 +0000] "GET /comments/destroy/61bda7690af41e98438f2812 HTTP/1.1" 200 79 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:18:36 +0000] "GET /comments/destroy/61bda7650af41e98438f27fb HTTP/1.1" 200 79 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:18:38 +0000] "GET /comments/destroy/61bda7690af41e98438f280b HTTP/1.1" 200 79 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:18:39 +0000] "GET / HTTP/1.1" 200 8390 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:18:39 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:18:40 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:18:40 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:18:40 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:18:41 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:18:41 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:18:43 +0000] "GET /posts/destroy/61bda44fa28e5c3dc8f6a34d HTTP/1.1" 200 72 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:18:46 +0000] "GET /users/sign-out HTTP/1.1" 302 46 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:18:46 +0000] "GET / HTTP/1.1" 200 5432 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:18:48 +0000] "GET /users/sign-in HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:18:54 +0000] "POST /users/create-session HTTP/1.1" 302 46 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:18:54 +0000] "GET / HTTP/1.1" 200 7195 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:18:58 +0000] "GET /posts/destroy/61bda4c37283b02792a5cc32 HTTP/1.1" 200 72 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:19:00 +0000] "GET / HTTP/1.1" 200 5374 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+[0mGET / [32m200[0m 111.965 ms - 5046[0m
+[0mGET /users/sign-in [32m200[0m 12.880 ms - 2678[0m
+[0mPOST /users/create-session [36m302[0m 15.553 ms - 46[0m
+[0mGET / [32m200[0m 39.649 ms - 7609[0m
+[0mPOST /posts/create [32m200[0m 168.116 ms - 292[0m
+[0mPOST /comments/create [32m200[0m 239.773 ms - 512[0m
+[0mPOST /comments/create [32m200[0m 74.214 ms - 512[0m
+[0mPOST /comments/create [32m200[0m 66.623 ms - 540[0m
+[0mPOST /comments/create [32m200[0m 65.129 ms - 540[0m
+[0mGET / [32m200[0m 76.562 ms - 12210[0m
+[0mPOST /comments/create [32m200[0m 94.918 ms - 565[0m
+[0mPOST /comments/create [32m200[0m 127.164 ms - 592[0m
+[0mPOST /comments/create [36m302[0m 53.965 ms - 46[0m
+[0mGET / [32m200[0m 67.157 ms - 14915[0m
+[0mPOST /comments/create [32m200[0m 108.037 ms - 621[0m
+[0mPOST /comments/create [32m200[0m 117.675 ms - 648[0m
+[0mGET / [32m200[0m 142.568 ms - 16372[0m
+[0mGET / [32m200[0m 152.033 ms - 16424[0m
+[0mGET / [36m304[0m 112.260 ms - -[0m
+[0mGET / [36m304[0m 113.311 ms - -[0m
+[0mGET /comments/destroy/61bda7c38d5bae65c90dcc44 [32m200[0m 120.546 ms - 79[0m
+[0mGET /comments/destroy/61bda7cc8d5bae65c90dcc56 [32m200[0m 55.792 ms - 79[0m
+[0mGET /comments/destroy/61bda7d88d5bae65c90dcc70 [32m200[0m 44.389 ms - 79[0m
+[0mGET /comments/destroy/61bda7d88d5bae65c90dcc78 [32m200[0m 47.165 ms - 79[0m
+[0mGET /comments/destroy/61bda7f08d5bae65c90dcc94 [32m200[0m 51.542 ms - 79[0m
+[0mGET /comments/destroy/61bda7f08d5bae65c90dcc96 [32m200[0m 25.017 ms - 79[0m
+[0mGET /comments/destroy/61bda7c88d5bae65c90dcc4d [32m200[0m 34.373 ms - 79[0m
+[0mGET /comments/destroy/61bda7d08d5bae65c90dcc5e [32m200[0m 33.249 ms - 79[0m
+[0mGET /comments/destroy/61bda7dc8d5bae65c90dcc80 [32m200[0m 67.535 ms - 79[0m
+[0mGET / [32m200[0m 70.192 ms - 9024[0m
+[0mPOST /comments/create [32m200[0m 130.322 ms - 511[0m
+[0mPOST /comments/create [32m200[0m 72.538 ms - 511[0m
+[0mPOST /comments/create [32m200[0m 74.533 ms - 538[0m
+[0mPOST /comments/create [32m200[0m 72.529 ms - 565[0m
+[0mPOST /comments/create [32m200[0m 55.494 ms - 538[0m
+[0mPOST /comments/create [32m200[0m 34.523 ms - 565[0m
+[0mPOST /comments/create [32m200[0m 84.146 ms - 592[0m
+[0mGET / [32m200[0m 87.567 ms - 14771[0m
+[0mPOST /comments/create [32m200[0m 45.431 ms - 593[0m
+[0mPOST /comments/create [32m200[0m 72.946 ms - 621[0m
+[0mGET / [32m200[0m 82.514 ms - 16415[0m
+[0mPOST /comments/create [32m200[0m 66.905 ms - 621[0m
+[0mGET /comments/destroy/61bda9d3606cbe5ea99a9616 [32m200[0m 35.230 ms - 79[0m
+[0mPOST /likes/toggle/?id=61bda9da606cbe5ea99a962f&type=Comment [32m200[0m 168.371 ms - 59[0m
+[0mPOST /likes/toggle/?id=61bda9da606cbe5ea99a962f&type=Comment [32m200[0m 44.140 ms - 58[0m
+[0mPOST /likes/toggle/?id=61bda9da606cbe5ea99a962f&type=Comment [32m200[0m 33.100 ms - 59[0m
+[0mPOST /likes/toggle/?id=61bda9da606cbe5ea99a962f&type=Comment [32m200[0m 29.190 ms - 58[0m
+[0mPOST /likes/toggle/?id=61bda9e9606cbe5ea99a9651&type=Comment [32m200[0m 41.797 ms - 59[0m
+[0mPOST /likes/toggle/?id=61bda9e9606cbe5ea99a9651&type=Comment [32m200[0m 31.779 ms - 58[0m
+[0mPOST /likes/toggle/?id=61bda9e9606cbe5ea99a9651&type=Comment [32m200[0m 34.463 ms - 59[0m
+[0mPOST /likes/toggle/?id=61bda9e9606cbe5ea99a9651&type=Comment [32m200[0m 32.596 ms - 58[0m
+[0mPOST /likes/toggle/?id=61bda9e9606cbe5ea99a9651&type=Comment [32m200[0m 42.098 ms - 59[0m
+[0mGET /comments/destroy/61bda9e9606cbe5ea99a9651 [32m200[0m 32.891 ms - 79[0m
+[0mGET /comments/destroy/61bda9d7606cbe5ea99a961f [32m200[0m 54.424 ms - 79[0m
+[0mGET /comments/destroy/61bda9cd606cbe5ea99a960d [32m200[0m 25.855 ms - 79[0m
+[0mGET /comments/destroy/61bdaa02606cbe5ea99a966b [32m200[0m 31.577 ms - 79[0m
+[0mGET /comments/destroy/61bda9d7606cbe5ea99a9627 [32m200[0m 42.935 ms - 79[0m
+[0mGET /comments/destroy/61bda9da606cbe5ea99a962f [32m200[0m 40.301 ms - 79[0m
+[0mGET /comments/destroy/61bda9da606cbe5ea99a9637 [32m200[0m 46.773 ms - 79[0m
+[0mGET /comments/destroy/61bda9db606cbe5ea99a963f [32m200[0m 57.520 ms - 79[0m
+[0mGET /comments/destroy/61bda9f0606cbe5ea99a9659 [32m200[0m 39.915 ms - 79[0m
+[0mGET / [32m200[0m 49.652 ms - 9024[0m
+[0mGET /posts/destroy/61bda7bf8d5bae65c90dcc3f [32m200[0m 34.839 ms - 72[0m
+[0mGET / [32m200[0m 46.644 ms - 7412[0m
+[0mGET / [36m304[0m 49.677 ms - -[0m
+[0mGET /users/sign-out [36m302[0m 26.192 ms - 46[0m
+[0mGET / [32m200[0m 23.279 ms - 5293[0m
+[0mGET /users/sign-in [36m304[0m 15.000 ms - -[0m
+[0mPOST /users/create-session [36m302[0m 14.504 ms - 46[0m
+[0mGET / [32m200[0m 33.834 ms - 7802[0m
+[0mGET /posts/destroy/61bcca1c2d041011b331b2e5 [32m200[0m 47.773 ms - 72[0m
+[0mGET / [32m200[0m 52.492 ms - 5935[0m
+[0mGET /friendships/toggle/61bb3ff2ac7016aa1fb1791a [32m200[0m 50.536 ms - 62[0m
+[0mGET / [32m200[0m 34.094 ms - 5249[0m
+[0mGET / [36m304[0m 32.137 ms - -[0m
+[0mGET / [36m304[0m 23.046 ms - -[0m
+[0mGET / [36m304[0m 32.460 ms - -[0m
+[0mPOST /posts/create [32m200[0m 24.980 ms - 300[0m
+[0mGET / [32m200[0m 44.563 ms - 6866[0m
+[0mPOST /comments/create [32m200[0m 47.582 ms - 520[0m
+[0mGET / [32m200[0m 58.331 ms - 7694[0m
+[0mPOST /comments/create [32m200[0m 43.469 ms - 546[0m
+[0mGET /comments/destroy/61bdaa74606cbe5ea99a974d [32m200[0m 34.082 ms - 79[0m
+[0mGET /comments/destroy/61bdaa6e606cbe5ea99a973d [32m200[0m 44.219 ms - 79[0m
+[0mGET / [32m200[0m 45.527 ms - 6866[0m
+[0mGET /posts/destroy/61bdaa68606cbe5ea99a9733 [32m200[0m 35.601 ms - 72[0m
+[0mGET / [32m200[0m 27.451 ms - 5249[0m
+[0mGET /users/sign-out [36m302[0m 15.741 ms - 46[0m
+[0mGET / [32m200[0m 15.628 ms - 4414[0m
+::1 - - [18/Dec/2021:09:32:16 +0000] "GET / HTTP/1.1" 200 4300 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:32:17 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:32:19 +0000] "GET /users/sign-in HTTP/1.1" 200 2744 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:32:25 +0000] "POST /users/create-session HTTP/1.1" 302 46 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:32:25 +0000] "GET / HTTP/1.1" 200 5623 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:34:11 +0000] "POST /posts/create HTTP/1.1" 200 343 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:34:13 +0000] "GET / HTTP/1.1" 200 7056 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:34:15 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:36:35 +0000] "GET / HTTP/1.1" 200 7056 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:37:58 +0000] "POST /comments/create HTTP/1.1" 200 575 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:38:01 +0000] "GET / HTTP/1.1" 200 7902 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:38:13 +0000] "GET /users/sign-out HTTP/1.1" 302 46 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:38:13 +0000] "GET / HTTP/1.1" 200 6021 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:38:17 +0000] "GET / HTTP/1.1" 200 5774 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:38:26 +0000] "GET /users/sign-in HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:38:31 +0000] "POST /users/create-session HTTP/1.1" 302 46 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:38:31 +0000] "GET / HTTP/1.1" 200 7852 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:38:41 +0000] "POST /posts/create HTTP/1.1" 200 318 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:38:48 +0000] "GET / HTTP/1.1" 200 9249 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:41:43 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:41:50 +0000] "GET /posts/destroy/61bdac21e473bbc4b2671200 HTTP/1.1" 200 72 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:09:41:54 +0000] "POST /posts/create HTTP/1.1" 200 303 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+[0mGET / [32m200[0m 94.828 ms - 4167[0m
+[0mGET /users/sign-in [32m200[0m 25.085 ms - 2678[0m
+[0mPOST /users/create-session [36m302[0m 15.713 ms - 46[0m
+[0mGET / [32m200[0m 29.073 ms - 5498[0m
+[0mPOST /posts/create [32m200[0m 92.224 ms - 303[0m
+[0mGET / [32m200[0m 43.185 ms - 6869[0m
+[0mPOST /posts/create [32m200[0m 35.852 ms - 302[0m
+[0mGET / [32m200[0m 109.712 ms - 8488[0m
+[0mGET /posts/destroy/61bdad1609ba6718e9073e6f [32m200[0m 65.435 ms - 72[0m
+[0mGET /posts/destroy/61bdad1109ba6718e9073e66 [32m200[0m 50.766 ms - 72[0m
+[0mPOST /posts/create [32m200[0m 40.824 ms - 304[0m
+[0mPOST /posts/create [32m200[0m 28.300 ms - 304[0m
+[0mPOST /comments/create [32m200[0m 106.826 ms - 524[0m
+[0mGET / [32m200[0m 67.148 ms - 9319[0m
+[0mPOST /comments/create [32m200[0m 74.200 ms - 550[0m
+[0mGET / [32m200[0m 85.857 ms - 10146[0m
+[0mGET /comments/destroy/61bdaec0be1cb0c94958bd44 [32m200[0m 55.627 ms - 79[0m
+[0mGET /comments/destroy/61bdaecebe1cb0c94958bd54 [32m200[0m 33.591 ms - 79[0m
+[0mGET / [32m200[0m 49.884 ms - 8491[0m
+[0mPOST /comments/create [32m200[0m 61.512 ms - 524[0m
+[0mGET / [32m200[0m 49.484 ms - 9319[0m
+[0mGET /comments/destroy/61bdaed9be1cb0c94958bd72 [32m200[0m 37.941 ms - 79[0m
+[0mPOST /comments/create [32m200[0m 54.098 ms - 523[0m
+[0mPOST /comments/create [32m200[0m 67.857 ms - 551[0m
+[0mGET /comments/destroy/61bdaf19be1cb0c94958bd90 [32m200[0m 42.811 ms - 79[0m
+[0mGET /comments/destroy/61bdaf13be1cb0c94958bd87 [32m200[0m 42.122 ms - 79[0m
+[0mGET / [32m200[0m 48.604 ms - 8491[0m
+[0mGET / [36m304[0m 34.446 ms - -[0m
+[0mGET / [36m304[0m 62.701 ms - -[0m
+[0mPOST /comments/create [32m200[0m 37.827 ms - 523[0m
+[0mGET / [32m200[0m 70.237 ms - 9318[0m
+[0mGET /comments/destroy/61bdaf21be1cb0c94958bdb1 [32m200[0m 344.511 ms - 79[0m
+[0mGET / [32m200[0m 423.007 ms - 8491[0m
+[0mPOST /comments/create [32m200[0m 150.388 ms - 524[0m
+[0mGET / [32m200[0m 91.013 ms - 9319[0m
+[0mPOST /comments/create [32m200[0m 69.899 ms - 552[0m
+[0mPOST /comments/create [32m200[0m 59.269 ms - 579[0m
+[0mGET /comments/destroy/61bdaf7605706243d3e1ba39 [32m200[0m 50.664 ms - 79[0m
+[0mGET /comments/destroy/61bdaf7305706243d3e1ba31 [32m200[0m 30.855 ms - 79[0m
+[0mGET /comments/destroy/61bdaf6b05706243d3e1ba21 [32m200[0m 29.044 ms - 79[0m
+[0mGET / [32m200[0m 57.568 ms - 8491[0m
+[0mPOST /comments/create [32m200[0m 74.540 ms - 527[0m
+[0mGET /comments/destroy/61bdaf8405706243d3e1ba55 [32m200[0m 36.652 ms - 79[0m
+[0mGET / [36m304[0m 45.621 ms - -[0m
+[0mGET / [36m304[0m 63.875 ms - -[0m
+[0mGET / [36m304[0m 45.864 ms - -[0m
+[0mPOST /comments/create [32m200[0m 63.858 ms - 524[0m
+[0mGET /comments/destroy/61bdaf9905706243d3e1ba72 [32m200[0m 44.851 ms - 79[0m
+[0mGET / [36m304[0m 43.401 ms - -[0m
+[0mGET / [36m304[0m 118.967 ms - -[0m
+[0mPOST /posts/create [32m200[0m 56.366 ms - 300[0m
+[0mPOST /comments/create [32m200[0m 107.724 ms - 520[0m
+[0mGET / [32m200[0m 74.466 ms - 10936[0m
+[0mGET /comments/destroy/61bdb02d24daec17e3ae46e9 [32m200[0m 27.494 ms - 79[0m
+[0mGET /posts/destroy/61bdb02924daec17e3ae46e4 [32m200[0m 55.129 ms - 72[0m
+[0mGET /posts/destroy/61bdaeb6be1cb0c94958bd3f [32m200[0m 51.219 ms - 72[0m
+[0mGET /posts/destroy/61bdad6cbe1cb0c94958bd3b [32m200[0m 40.838 ms - 72[0m
+[0mGET / [32m200[0m 44.117 ms - 5249[0m
+[0mPOST /posts/create [32m200[0m 38.470 ms - 300[0m
+[0mPOST /posts/create [32m200[0m 46.405 ms - 300[0m
+[0mGET /posts/destroy/61bdb03c24daec17e3ae4717 [32m200[0m 34.808 ms - 72[0m
+[0mGET /posts/destroy/61bdb03c24daec17e3ae4713 [32m200[0m 43.998 ms - 72[0m
+[0mGET / [36m304[0m 28.667 ms - -[0m
+[0mGET / [36m304[0m 35.727 ms - -[0m
+[0mGET / [36m304[0m 22.364 ms - -[0m
+[0mGET / [36m304[0m 34.404 ms - -[0m
+[0mGET / [36m304[0m 23.342 ms - -[0m
+[0mGET / [36m304[0m 17.477 ms - -[0m
+[0mPOST /posts/create [32m200[0m 31.095 ms - 300[0m
+[0mGET / [32m200[0m 43.504 ms - 6866[0m
+[0mPOST /comments/create [32m200[0m 67.730 ms - 519[0m
+[0mGET / [32m200[0m 58.354 ms - 7693[0m
+[0mGET /users/sign-out [36m302[0m 22.438 ms - 46[0m
+[0mGET / [32m200[0m 20.641 ms - 5804[0m
+[0mGET /users/sign-in [36m304[0m 6.534 ms - -[0m
+[0mPOST /users/create-session [36m302[0m 12.050 ms - 46[0m
+[0mGET / [32m200[0m 30.461 ms - 7626[0m
+[0mPOST /posts/create [32m200[0m 34.766 ms - 292[0m
+[0mPOST /comments/create [32m200[0m 61.354 ms - 513[0m
+[0mGET /posts/destroy/61bdb08824daec17e3ae4766 [32m200[0m 31.943 ms - 72[0m
+[0mGET / [32m200[0m 80.579 ms - 7377[0m
+[0mGET /users/sign-out [36m302[0m 9.445 ms - 46[0m
+[0mGET / [32m200[0m 24.864 ms - 5804[0m
+::1 - - [18/Dec/2021:10:01:06 +0000] "GET / HTTP/1.1" 200 6666 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:10:01:11 +0000] "GET /users/sign-in HTTP/1.1" 200 2744 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:10:01:15 +0000] "POST /users/create-session HTTP/1.1" 302 46 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:10:01:15 +0000] "GET / HTTP/1.1" 200 9483 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:10:01:18 +0000] "GET /posts/destroy/61bdace28ed8d3c0412aead7 HTTP/1.1" 200 72 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:10:01:20 +0000] "GET / HTTP/1.1" 200 7603 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:10:01:24 +0000] "POST /posts/create HTTP/1.1" 200 301 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:10:01:28 +0000] "POST /comments/create HTTP/1.1" 200 521 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:10:01:32 +0000] "GET /comments/destroy/61bdb1780366670bde3c44fd HTTP/1.1" 200 79 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:10:01:34 +0000] "GET /posts/destroy/61bdb1740366670bde3c44f8 HTTP/1.1" 200 72 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:10:01:46 +0000] "GET /users/profile/61bda19aac72ca2195c38cfe HTTP/1.1" 200 3369 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:10:02:15 +0000] "GET / HTTP/1.1" 304 - "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:10:02:26 +0000] "GET /users/profile/61bda19aac72ca2195c38cfe HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:10:02:31 +0000] "GET /users/profile/61aa3653ffc9a92092e8f04a HTTP/1.1" 200 3168 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:10:02:34 +0000] "GET /friendships/toggle/61aa3653ffc9a92092e8f04a HTTP/1.1" 304 - "http://localhost:8000/users/profile/61aa3653ffc9a92092e8f04a" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:10:02:37 +0000] "GET / HTTP/1.1" 200 8290 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:10:02:53 +0000] "GET /friendships/toggle/61aa3653ffc9a92092e8f04a HTTP/1.1" 200 62 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+[0mGET / [32m200[0m 386.588 ms - 5557[0m
+[0mGET /users/profile/61bb3ff2ac7016aa1fb1791a [36m302[0m 18.720 ms - 72[0m
+[0mGET /users/sign-in [32m200[0m 14.470 ms - 2678[0m
+[0mPOST /users/create-session [36m302[0m 10.421 ms - 46[0m
+[0mGET / [32m200[0m 44.272 ms - 7942[0m
+[0mGET / [32m200[0m 134.777 ms - 7693[0m
+[0mGET /users/profile/61bb3ff2ac7016aa1fb1791a [32m200[0m 32.567 ms - 3090[0m
+[0mGET /users/profile/61bb3ff2ac7016aa1fb1791a [36m304[0m 31.521 ms - -[0m
+[0mGET /friendships/toggle/61bb3ff2ac7016aa1fb1791a [32m200[0m 75.057 ms - 61[0m
+[0mGET /friendships/toggle/61bb3ff2ac7016aa1fb1791a [32m200[0m 39.573 ms - 62[0m
+[0mGET /friendships/toggle/61bb3ff2ac7016aa1fb1791a [32m200[0m 53.949 ms - 61[0m
+[0mGET / [32m200[0m 89.298 ms - 8379[0m
+[0mGET /friendships/toggle/61bb3ff2ac7016aa1fb1791a [32m200[0m 42.910 ms - 62[0m
+[0mGET / [32m200[0m 123.343 ms - 7693[0m
+[0mGET /users/profile/61bb3ff2ac7016aa1fb1791a [36m304[0m 33.242 ms - -[0m
+[0mGET /friendships/toggle/61bb3ff2ac7016aa1fb1791a [32m200[0m 82.636 ms - 61[0m
+[0mGET / [32m200[0m 99.630 ms - 8379[0m
+[0mGET /friendships/toggle/61bb3ff2ac7016aa1fb1791a [32m200[0m 34.155 ms - 62[0m
+[0mGET / [32m200[0m 62.029 ms - 7693[0m
+[0mGET / [36m304[0m 139.513 ms - -[0m
+[0mGET /users/profile/61bb3ff2ac7016aa1fb1791a [36m304[0m 39.321 ms - -[0m
+[0mGET /friendships/toggle/61bb3ff2ac7016aa1fb1791a [32m200[0m 66.387 ms - 61[0m
+[0mGET / [32m200[0m 89.896 ms - 8379[0m
+[0mGET /friendships/toggle/61bb3ff2ac7016aa1fb1791a [32m200[0m 35.229 ms - 62[0m
+[0mGET / [32m200[0m 68.935 ms - 7693[0m
+[0mGET / [32m200[0m 449.058 ms - 8061[0m
+[0mGET /users/profile/61bb40d3ac7016aa1fb17929 [36m304[0m 117.036 ms - -[0m
+[0mGET /users/profile/61bb3ff2ac7016aa1fb1791a [36m304[0m 41.756 ms - -[0m
+[0mGET /friendships/toggle/61bb3ff2ac7016aa1fb1791a [32m200[0m 101.979 ms - 61[0m
+[0mGET / [32m200[0m 126.800 ms - 8747[0m
+[0mGET / [36m304[0m 546.468 ms - -[0m
+[0mGET /friendships/toggle/61bb3ff2ac7016aa1fb1791a [32m200[0m 45.133 ms - 62[0m
+[0mGET /friendships/toggle/61bb3ff2ac7016aa1fb1791a [32m200[0m 42.621 ms - 61[0m
+[0mGET /users/profile/61bb40d3ac7016aa1fb17929 [36m304[0m 41.523 ms - -[0m
+[0mGET /friendships/toggle/61bb3ff2ac7016aa1fb1791a [32m200[0m 30.208 ms - 62[0m
+[0mGET /friendships/toggle/61bb3ff2ac7016aa1fb1791a [32m200[0m 32.054 ms - 61[0m
+[0mGET / [32m200[0m 391.826 ms - 8379[0m
+[0mGET / [36m304[0m 339.772 ms - -[0m
+[0mGET /users/profile/61bb3ff2ac7016aa1fb1791a [32m200[0m 114.762 ms - 3093[0m
+[0mGET /friendships/toggle/61bb3ff2ac7016aa1fb1791a [32m200[0m 37.581 ms - 62[0m
+[0mGET / [32m200[0m 65.595 ms - 7693[0m
+[0mGET / [36m304[0m 45.686 ms - -[0m
+[0mGET /users/profile/61bb3ff2ac7016aa1fb1791a [32m200[0m 28.615 ms - 3090[0m
+[0mGET /friendships/toggle/61bb3ff2ac7016aa1fb1791a [32m200[0m 60.312 ms - 61[0m
+[0mGET / [32m200[0m 81.159 ms - 8379[0m
+[0mGET / [36m304[0m 796.553 ms - -[0m
+[0mGET /friendships/toggle/61bb3ff2ac7016aa1fb1791a [32m200[0m 197.367 ms - 62[0m
+[0mGET /friendships/toggle/61bb3ff2ac7016aa1fb1791a [32m200[0m 371.319 ms - 61[0m
+[0mGET /friendships/toggle/61bb3ff2ac7016aa1fb1791a [32m200[0m 22.274 ms - 62[0m
+[0mGET /users/profile/61bb40d3ac7016aa1fb17929 [36m304[0m 41.897 ms - -[0m
+[0mGET /users/profile/61bb3ff2ac7016aa1fb1791a [36m304[0m 37.658 ms - -[0m
+[0mGET /friendships/toggle/61bb3ff2ac7016aa1fb1791a [32m200[0m 47.066 ms - 61[0m
+[0mGET /friendships/toggle/61bb3ff2ac7016aa1fb1791a [32m200[0m 34.516 ms - 62[0m
+[0mGET /friendships/toggle/61bb3ff2ac7016aa1fb1791a [32m200[0m 37.241 ms - 61[0m
+[0mGET /friendships/toggle/61bb3ff2ac7016aa1fb1791a [32m200[0m 29.220 ms - 62[0m
+[0mGET /friendships/toggle/61bb3ff2ac7016aa1fb1791a [32m200[0m 33.470 ms - 61[0m
+[0mGET /friendships/toggle/61bb3ff2ac7016aa1fb1791a [32m200[0m 33.061 ms - 62[0m
+[0mGET /friendships/toggle/61bb3ff2ac7016aa1fb1791a [32m200[0m 57.618 ms - 61[0m
+[0mGET /friendships/toggle/61bb3ff2ac7016aa1fb1791a [32m200[0m 43.914 ms - 62[0m
+[0mGET /friendships/toggle/61bb3ff2ac7016aa1fb1791a [32m200[0m 50.264 ms - 61[0m
+[0mGET /friendships/toggle/61bb3ff2ac7016aa1fb1791a [32m200[0m 24.102 ms - 62[0m
+[0mGET /users/profile/61bb3ff2ac7016aa1fb1791a [36m304[0m 252.371 ms - -[0m
+[0mGET /friendships/toggle/61bb3ff2ac7016aa1fb1791a [32m200[0m 110.069 ms - 61[0m
+[0mGET /users/profile/61bb3ff2ac7016aa1fb1791a [32m200[0m 31.322 ms - 3093[0m
+[0mGET /friendships/toggle/61bb3ff2ac7016aa1fb1791a [32m200[0m 49.659 ms - 62[0m
+[0mGET /users/profile/61bb3ff2ac7016aa1fb1791a [32m200[0m 42.636 ms - 3090[0m
+[0mGET /users/profile/61bb3ff2ac7016aa1fb1791a [36m304[0m 29.893 ms - -[0m
+[0mGET / [32m200[0m 68.373 ms - 7693[0m
+[0mGET / [36m304[0m 60.619 ms - -[0m
+[0mGET / [36m304[0m 46.774 ms - -[0m
+[0mGET / [36m304[0m 69.466 ms - -[0m
+[0mGET /users/profile/61bb3ff2ac7016aa1fb1791a [36m304[0m 26.511 ms - -[0m
+[0mGET /friendships/toggle/61bb3ff2ac7016aa1fb1791a [32m200[0m 35.346 ms - 61[0m
+[0mGET / [32m200[0m 79.397 ms - 8379[0m
+[0mGET /friendships/toggle/61bb3ff2ac7016aa1fb1791a [32m200[0m 15.469 ms - 62[0m
+[0mGET /users/profile/61bb3ff2ac7016aa1fb1791a [36m304[0m 23.449 ms - -[0m
+[0mGET / [32m200[0m 61.521 ms - 7693[0m
+[0mGET /friendships/toggle/61bb3ff2ac7016aa1fb1791a [32m200[0m 28.890 ms - 61[0m
+[0mGET / [32m200[0m 92.322 ms - 8379[0m
+[0mGET /users/profile/61bb40d3ac7016aa1fb17929 [36m304[0m 30.244 ms - -[0m
+[0mGET /friendships/toggle/61bb3ff2ac7016aa1fb1791a [32m200[0m 36.630 ms - 62[0m
+[0mGET /users/profile/61bb3ff2ac7016aa1fb1791a [36m304[0m 25.507 ms - -[0m
+[0mGET / [32m200[0m 59.447 ms - 7693[0m
+[0mGET / [36m304[0m 64.502 ms - -[0m
+[0mGET /users/profile/61bb3ff2ac7016aa1fb1791a [36m304[0m 35.275 ms - -[0m
+[0mGET /friendships/toggle/61bb3ff2ac7016aa1fb1791a [32m200[0m 50.905 ms - 61[0m
+[0mGET /users/profile/61bb3ff2ac7016aa1fb1791a [32m200[0m 34.854 ms - 3093[0m
+[0mGET / [32m200[0m 90.904 ms - 8379[0m
+[0mGET /users/profile/61bb3ff2ac7016aa1fb1791a [36m304[0m 32.494 ms - -[0m
+[0mGET / [36m304[0m 79.851 ms - -[0m
+[0mGET /users/profile/61bb3ff2ac7016aa1fb1791a [36m304[0m 32.045 ms - -[0m
+[0mGET / [36m304[0m 89.348 ms - -[0m
+[0mGET /friendships/toggle/61bb3ff2ac7016aa1fb1791a [32m200[0m 38.533 ms - 62[0m
+[0mGET /users/sign-out [36m302[0m 29.388 ms - 46[0m
+[0mGET / [32m200[0m 48.787 ms - 5804[0m
+[0mGET /users/sign-in [36m304[0m 17.882 ms - -[0m
+[0mPOST /users/create-session [36m302[0m 9.276 ms - 46[0m
+[0mGET / [32m200[0m 59.865 ms - 7626[0m
+[0mGET / [32m200[0m 67.974 ms - 5557[0m
+[0mGET /favicon.ico [33m404[0m 6.908 ms - 150[0m
+[0mGET /users/sign-in [36m304[0m 29.902 ms - -[0m
+[0mPOST /users/create-session [36m302[0m 18.495 ms - 46[0m
+[0mGET / [32m200[0m 45.941 ms - 7942[0m
+[0mGET / [32m200[0m 125.837 ms - 7377[0m
+[0mGET / [36m304[0m 56.777 ms - -[0m
+[0mGET / [36m304[0m 69.395 ms - -[0m
+[0mGET / [36m304[0m 58.888 ms - -[0m
+[0mGET /users/sign-out [36m302[0m 16.258 ms - 46[0m
+[0mGET / [32m200[0m 28.203 ms - 5804[0m
+[0mGET / [32m200[0m 51.240 ms - 5557[0m
+[0mGET / [36m304[0m 33.656 ms - -[0m
+[0mGET / [36m304[0m 42.182 ms - -[0m
+[0mGET / [36m304[0m 41.725 ms - -[0m
+[0mGET / [36m304[0m 56.625 ms - -[0m
+::1 - - [18/Dec/2021:11:09:21 +0000] "GET / HTTP/1.1" 200 5774 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:11:09:24 +0000] "GET /users/profile/61aa3653ffc9a92092e8f04a HTTP/1.1" 302 72 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:11:09:24 +0000] "GET /users/sign-in HTTP/1.1" 200 2744 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:11:09:33 +0000] "POST /users/create-session HTTP/1.1" 302 46 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:11:09:33 +0000] "GET / HTTP/1.1" 200 8151 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:11:09:48 +0000] "GET / HTTP/1.1" 200 5774 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 Edg/96.0.1054.57"
+::1 - - [18/Dec/2021:11:09:49 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 Edg/96.0.1054.57"
+::1 - - [18/Dec/2021:11:09:51 +0000] "GET /users/sign-in HTTP/1.1" 200 2744 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 Edg/96.0.1054.57"
+::1 - - [18/Dec/2021:11:09:53 +0000] "POST /users/create-session HTTP/1.1" 302 46 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 Edg/96.0.1054.57"
+::1 - - [18/Dec/2021:11:09:53 +0000] "GET / HTTP/1.1" 200 7852 "http://localhost:8000/users/sign-in" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 Edg/96.0.1054.57"
+::1 - - [18/Dec/2021:11:10:15 +0000] "GET /users/sign-in HTTP/1.1" 302 126 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:11:10:22 +0000] "GET /users/profile/%3C%25=%20user.id%20%25%3E HTTP/1.1" - - "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:11:10:24 +0000] "GET / HTTP/1.1" 200 7902 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:11:10:31 +0000] "GET /users/profile/61bda19aac72ca2195c38cfe HTTP/1.1" 200 3171 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:11:10:33 +0000] "GET /friendships/toggle/61bda19aac72ca2195c38cfe HTTP/1.1" 200 61 "http://localhost:8000/users/profile/61bda19aac72ca2195c38cfe" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:11:10:34 +0000] "GET /friendships/toggle/61bda19aac72ca2195c38cfe HTTP/1.1" 200 62 "http://localhost:8000/users/profile/61bda19aac72ca2195c38cfe" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:11:10:37 +0000] "GET /friendships/toggle/61bda19aac72ca2195c38cfe HTTP/1.1" 200 61 "http://localhost:8000/users/profile/61bda19aac72ca2195c38cfe" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:11:10:40 +0000] "GET / HTTP/1.1" 200 8594 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:11:10:42 +0000] "GET /friendships/toggle/61bda19aac72ca2195c38cfe HTTP/1.1" 200 62 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:11:10:44 +0000] "GET /users/profile/61bda19aac72ca2195c38cfe HTTP/1.1" 304 - "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:11:10:48 +0000] "GET /friendships/toggle/61bda19aac72ca2195c38cfe HTTP/1.1" 200 61 "http://localhost:8000/users/profile/61bda19aac72ca2195c38cfe" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:11:10:51 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:11:10:54 +0000] "GET /users/profile/61bda19aac72ca2195c38cfe HTTP/1.1" 200 3174 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:11:10:56 +0000] "GET /friendships/toggle/61bda19aac72ca2195c38cfe HTTP/1.1" 200 62 "http://localhost:8000/users/profile/61bda19aac72ca2195c38cfe" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:11:11:00 +0000] "GET / HTTP/1.1" 200 7902 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:11:11:00 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:11:11:03 +0000] "POST /likes/toggle/?id=61bdabf6e473bbc4b26711de&type=Comment HTTP/1.1" 200 59 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:11:11:04 +0000] "POST /likes/toggle/?id=61bdabf6e473bbc4b26711de&type=Comment HTTP/1.1" 200 58 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:11:11:08 +0000] "POST /comments/create HTTP/1.1" 200 589 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:11:11:09 +0000] "GET /comments/destroy/61bdc1cc2b976af0d2828ceb HTTP/1.1" 200 79 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:11:11:12 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:11:11:12 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:11:11:12 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:11:11:13 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:11:11:13 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:11:11:13 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:11:11:14 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"

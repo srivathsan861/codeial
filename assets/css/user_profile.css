@@ -8,7 +8,7 @@ body {
     height: 10rem;
     width: 10rem;
     border-radius: 50%;
-    border: 3px dashed hotpink; }
+    border: 3px solid white; }
     #user-profile #profile-pic img:hover {
       box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px; }
 
@@ -16,15 +16,16 @@ body {
   text-align: center;
   width: 40vw;
   margin: auto;
-  background-color: hotpink;
+  background-color: black;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
   border-radius: 30px;
   height: 50vh; }
   #user-profile form label {
-    font-family: 'Comfortaa', cursive; }
+    font-family: 'Comfortaa', cursive;
+    color: white; }
   #user-profile form input {
-    background-color: pink;
+    background-color: hotpink;
     border-radius: 10px;
     border: none;
     margin: 1rem; }
@@ -35,11 +36,11 @@ body {
     padding: 6px 12px;
     cursor: pointer; }
   #user-profile form #update {
-    background-color: black;
-    color: hotpink; }
+    background-color: hotpink;
+    color: white;
+    font-family: 'Comfortaa', cursive; }
     #user-profile form #update:hover {
-      background-color: deeppink;
-      color: black; }
+      background-color: deeppink; }
 
 #user-profile #x-user-info {
   text-align: center;

@@ -2,14 +2,20 @@
 <link rel="stylesheet" type="text/css" href="<%= assetPath('css/chat_box.css') %>">
 
 <% if (locals.user){ %>
+
 	<div id="user-chat-box">
-		<ul id="chat-messages-list">
+
+	       <button id="close"> X </button>
+
+	  		<ul id="chat-messages-list">
+
 			<li class="other-message">
 				<span>Other Message</span>
 			</li>
 			<li class="self-message">
 				<span>
 					Self Message
+					<br>
 				</span>
 				
 			</li>
@@ -21,4 +27,23 @@
 		</div>
 
 	</div>
+	<button id="message">CHAT-ROOM</button>
 <% } %>
+
+<script> 
+ $('#message').click(function(){
+           if($('#user-chat-box')[0].style.display !== "none"){
+            $('#user-chat-box')[0].style.display = "none";
+               $('#message')[0].style.display = "inline";
+           }else{
+            $('#user-chat-box')[0].style.display = "inline";
+            $('#message')[0].style.display = "none";
+
+           }
+        });
+
+  $('#close').click(function(){
+             $('#message')[0].style.display = "inline";
+             $('#user-chat-box')[0].style.display = "none";
+        });
+</script>

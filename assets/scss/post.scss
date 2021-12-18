@@ -2,15 +2,15 @@
 .new-post{
 	list-style:none;
 	background-color:hotpink;
-	border-top-left-radius: 30px;
-	border-bottom-left-radius: 30px;
+	border-radius: 30px;
 	height: auto;
 	margin: 1rem 0 1rem 0;
+
     #post-content{
     	color:black;
     	font-size: 1rem;
 		font-family: 'PT Serif', serif;		
-		margin: 0 1rem 0 1rem;
+		margin: 0.3rem 1rem 0.3rem 1rem;
 		padding: 0.5rem 1rem 0.5rem 1rem;
 
     }
@@ -58,7 +58,11 @@
 
 .post-comments{
         background-color: gray;
-    	form{
+      border-bottom-left-radius:30px;
+      border-bottom-right-radius:30px;
+
+    	.new-comments-form{
+
            #create-comment{
            	margin:1rem 1rem 1rem 1rem;
            	border-radius: 10px;

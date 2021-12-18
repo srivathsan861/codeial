@@ -31,6 +31,14 @@ class Friendship{
                 },error: function(error){
                     console.log(error.responseText);
                 }
+            }).done(function(){
+                new Noty({
+                         theme: 'relax',
+                         text: `Removed from your friend list`,
+                         type: 'error',
+                         layout: 'topRight',
+                         timeout: 1500
+                     }).show(); 
             });
 
         });
@@ -38,7 +46,7 @@ class Friendship{
 }
 
 // Iterating over all the existing user's friends
-$('.friends-of-user').each(function(){
+$(' .friends-of-user').each(function(){
     let self = $(this);
     // console.log('lets check', self, $(self));
 

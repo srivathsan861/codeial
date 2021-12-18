@@ -1,14 +1,31 @@
 
+::-webkit-scrollbar {
+  width: 10px;
+  height: 5px;
+}
 
+/* Track */
+::-webkit-scrollbar-track {
+  background: deeppink;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(to bottom,#111519,transparent);
+    border-radius:5px;
+ }
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+      background-image: linear-gradient(to bottom,white,transparent);
+
+}
 body{
 	margin: 0;
-
 	#layout-main{
 		height: 100vh;
 	background-color: #111519;
-		// overflow-y: hidden;
-		// overflow-x: auto;
-		overflow: scroll;
+		overflow-y: scroll;
 		&::-webkit-scrollbar{
         display: none;
 }

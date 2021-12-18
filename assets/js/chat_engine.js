@@ -12,7 +12,6 @@ class ChatEngine{
 
     }
 
-
     connectionHandler(){
            
         let self = this;
@@ -65,4 +64,9 @@ class ChatEngine{
             $('#chat-messages-list').append(newMessage);
         });
     }
+
+
 }
+
+
+       

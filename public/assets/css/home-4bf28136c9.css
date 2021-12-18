@@ -53,11 +53,14 @@
       font-family: 'Comfortaa', cursive; }
       #home-container #users-container .user-name:hover {
         color: deeppink; }
-    #home-container #users-container .user-head h4 {
-      color: white;
-      font-family: 'Comfortaa', cursive;
-      background-image: linear-gradient(to right, #111519, transparent);
-      height: 1rem;
-      padding: 1rem 1rem 1rem 1rem;
-      border-top-left-radius: 10px;
-      border-bottom-left-radius: 10px; }
+    #home-container #users-container .user-head {
+      height: 15rem;
+      overflow-y: scroll; }
+      #home-container #users-container .user-head h4 {
+        color: white;
+        font-family: 'Comfortaa', cursive;
+        background-image: linear-gradient(to right, #111519, transparent);
+        height: 1rem;
+        padding: 1rem 1rem 1rem 1rem;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px; }

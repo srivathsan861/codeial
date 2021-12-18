@@ -38,10 +38,6 @@ module.exports.create = async function(req,res){
 
                   commentsMailer.newCommentOnPost(comment,email);
                   
-
-                  
-    
-
                   commentsMailer.newComment(comment);
                   let job1 = queue.create('emails',comment).save(function(err){
                     if(err){

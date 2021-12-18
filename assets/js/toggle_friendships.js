@@ -74,7 +74,7 @@
 
 
 
-console.log('js file of toggle_friendship is loaded');
+// console.log('js file of toggle_friendship is loaded');
 class ToggleFriendship{
     constructor(toggleElement){
         this.toggler = toggleElement;
@@ -94,12 +94,28 @@ class ToggleFriendship{
             })
             .done(function(data) {
 
-                console.log(data,'******');
+                // console.log(data,'******');
                 
                 if (data.data.friendAdded == true){
                     $(' button', self).html(`REMOVE FRIEND`);
+                    new Noty({
+                         theme: 'relax',
+                         text: `Added to your friend list`,
+                         type: 'success',
+                         layout: 'topRight',
+                         timeout: 1500
+                         
+                     }).show();
                 }else{
                     $(' button', self).html(`ADD FRIEND`);
+                    new Noty({
+                         theme: 'relax',
+                         text: `Removed from your friend list`,
+                         type: 'error',
+                         layout: 'topRight',
+                         timeout: 1500
+                         
+                     }).show(); 
                 }
 
             })
@@ -111,5 +127,6 @@ class ToggleFriendship{
         });
     }
 }
+
 
 
