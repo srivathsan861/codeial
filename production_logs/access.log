@@ -1,0 +1,2 @@
+::1 - - [18/Dec/2021:22:20:46 +0000] "GET /users/profile/61aa3653ffc9a92092e8f04a HTTP/1.1" 302 72 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
+::1 - - [18/Dec/2021:22:20:46 +0000] "GET /users/sign-in HTTP/1.1" 200 2744 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36"
