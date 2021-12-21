@@ -22,7 +22,7 @@ const development = {
 	secure: false,
 	auth: {
 		user: 'srivathsan861@gmail.com',
-		pass: 'darkloard'
+		pass:  process.env.CODEIAL_DEV_GMAIL_PASSWORD
 	 }
     },
     google_client_id: "685609719582-ejqnqrgnk2s6jic9aviokhak4s3bt0rk.apps.googleusercontent.com",
